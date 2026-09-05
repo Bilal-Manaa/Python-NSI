@@ -1,10 +1,9 @@
-# High School NSI Projects
+# High School NSI Projects (1ère)
 
-First programming projects made in 1ère NSI (French high school).
+Beginner programming projects made during 1ère NSI (French high school).
 
 ## Contents
-- Python scripts
-- A small game
-- A simple HTML/CSS website
+- **game/** : Small Python game (Tkinter + PIL/Pillow) with sprites
+- **website/** : Simple HTML/CSS/JS website about movie
 
-These are my beginner projects. More coming soon (cybersecurity labs, CTF, etc.).
+These are my first projects. More coming soon (cybersecurity, CTF, etc.).
