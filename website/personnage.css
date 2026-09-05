@@ -1,0 +1,44 @@
+body
+{
+background-image: url("5362.gif");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-color: black;
+color :rgb(255, 255, 255) ;
+zoom: 0.65;
+}
+
+
+
+img 
+{
+  float: right;
+  margin-right: 10px; 
+  margin-left: 15px;
+}
+
+.nav
+{
+    display: flex; 
+    background-color: rgba(0, 0, 0, 0);
+    font-family: times, serif; 
+    font-size:20pt; 
+    font-style:italic;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a.active {
+    color:black
+}

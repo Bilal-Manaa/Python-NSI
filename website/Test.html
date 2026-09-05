@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Film</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<nav class="nav">
+    <a href="Index.html">Accueil</a>    
+    <a href="Synopsis.html">Synopsis</a>
+    <a href="FicheTechnique.html">Fiche technique</a>
+    <a href="Personnages_Principaux.html">Personnages Principaux</a>
+    <a href="avis.html">Avis</a>
+    <a href="Test.html" class="active" >Test</a>
+    <a href="Ba.html">Bande-annonce</a>
+</nav>
+
+<h1> Quiz sur le film</h1>
+
+<form id="quiz">
+
+<p> 1) Qui est le personnage principal du film ?</p>
+<label><input type="radio" name="q1" value="0"> John Doe</label><br>
+<label><input type="radio" name="q1" value="1"> Hannibal Lecter</label><br>
+<label><input type="radio" name="q1" value="2"> Michael Myers</label><br><br>
+
+<p> 2) Quel est le genre du film ?</p>
+<label><input type="radio" name="q2" value="0"> Comédie</label><br>
+<label><input type="radio" name="q2" value="1"> Thriller</label><br>
+<label><input type="radio" name="q2" value="2"> Animation</label><br><br>
+
+<p> 3) En quelle année est sorti le film ?</p>
+<label><input type="radio" name="q3" value="0"> 1991</label><br>
+<label><input type="radio" name="q3" value="1"> 2005</label><br>
+<label><input type="radio" name="q3" value="2"> 2015</label><br><br>
+
+<p> 4) Combien d'Oscars a remporté ce film ?</p>
+<label><input type="radio" name="q4" value="0"> 1</label><br>
+<label><input type="radio" name="q4" value="1"> 3</label><br>
+<label><input type="radio" name="q4" value="2"> 5</label><br><br>
+
+<input type="button" value="Valider le quiz" onclick="corriger()">
+
+</form>
+
+<p id="resultat"></p>
+</body>
+</html>
